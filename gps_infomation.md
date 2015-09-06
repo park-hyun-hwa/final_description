@@ -79,3 +79,7 @@
         //값 불러오는 부분
         lati = String.valueOf(gps.getLatitude()); //위도
 	    longi = String.valueOf(gps.getLongitude()); //경도
+
+- 참고 url : [위치 수신 방법 종류](http://atin.tistory.com/381)
+
+	- A-GPS 방식을 사용하였고, 네트워크와 gps중 신호가 센 정보를 받는 방식을 사용함.
